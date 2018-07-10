@@ -1,0 +1,157 @@
+(12/06/2018 18:15:45) ******************************************************
+(12/06/2018 18:15:45) Iniciando proceso de creacion de Workitem
+(12/06/2018 18:15:45) Fecha/Hora (Inicio)	: 12/06/2018 18:15:45
+(12/06/2018 18:15:45) Nro. Proceso		: 18074
+(12/06/2018 18:15:45) Usuario			: fallas
+(12/06/2018 18:15:45) Cliente			: 192.168.100.125
+(12/06/2018 18:15:45) Cod. Remedy		: INC000001203717
+(12/06/2018 18:15:45) Componente		: EAI
+(12/06/2018 18:15:45) Soap Tecnico		: C18263
+(12/06/2018 18:15:45) ******************************************************
+(12/06/2018 18:15:45)
+(12/06/2018 18:15:45) Creando workitems . . .
+(12/06/2018 18:15:45) 
+{
+   "auditoria":{
+      "repository":"https://172.19.112.112:9443/ccm/",
+      "username":"E700911",
+      "password":"Jun2018+",
+      "area":"02.GESTION.FALLAS.3"
+   },
+   "workitem":[
+      {
+         "type":"com.ibm.team.workitem.workItemType.milestone", "parametro":[
+            {"name":"Cod_Proyect_Obj", "value":"INC000001203717"},
+            {"name":"id.proyecto.solicutd", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"Proyecto.Responsable", "value":"C17096"},
+            {"name":"summary", "value":"INC000001203717"},
+            {"name":"tipo.proyecto.solicitud", "value":"Requerimientos"},
+            {"name":"tipo_gerencia_objec", "value":"SOPORTE"},
+            {"name":"tipo_proveedores_object", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"com.ibm.team.workitem.workItemType.businessneed", "parametro":[
+            {"name":"@link_parent", "value":"#1"},
+            {"name":"Aplicacion", "value":"EAI"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"Cod_Proyec_Sol", "value":"INC000001203717"},
+            {"name":"Coordinador_de_Desarrollo", "value":"E700136"},
+            {"name":"description", "value":"INC000001203717"},
+            {"name":"Falla.Responsable", "value":"C17096"},
+            {"name":"id_urgencias00", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"FALLA.INC000001203717.EAI"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/01.INC000001203717.EAI.DESARROLLO"},
+            {"name":"tipo.gerencia.sol", "value":"SOPORTE"},
+            {"name":"tipo.proveedores.sol", "value":"EVERIS"},
+            {"name":"type.solicitud", "value":"Requerimientos"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001203717.EAI.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/01.INC000001203717.EAI.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001203717.EAI.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/02.INC000001203717.EAI.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001203717.EAI.COMITE_PP"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/03.INC000001203717.EAI.COMITE_PP"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001203717.EAI.PRODUCCION"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/04.INC000001203717.EAI.PRODUCCION"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#3"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"cod_project_au", "value":"INC000001203717"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001203717.EAI.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/01.INC000001203717.EAI.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#4"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"cod_project_au", "value":"INC000001203717"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001203717.EAI.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/02.INC000001203717.EAI.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"Acti_Cod_Project", "value":"INC000001203717"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"Id_nombre_actividad", "value":"DES_FUENTES"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"ACT.INC000001203717.EAI.DES_FUENTES"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/01.INC000001203717.EAI.DESARROLLO"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#6"},
+            {"name":"Acti_Cod_Project", "value":"INC000001203717"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"Id_nombre_actividad", "value":"PRD_INSTALACION"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C18263"},
+            {"name":"summary", "value":"ACT.INC000001203717.EAI.PRD_INSTALACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/04.INC000001203717.EAI.PRODUCCION"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"documentacion", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"category", "value":"CEQ.INC000001203717.EAI"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"DOC.INC000001203717.EAI.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001203717.EAI/R.FALLA.INC000001203717.EAI/01.INC000001203717.EAI.DESARROLLO"}
+         ]
+      }
+   ]
+}
+(12/06/2018 18:15:45) 
+(12/06/2018 18:15:45) 
+(12/06/2018 18:15:45) Ejecucion terminada en 0 segundos

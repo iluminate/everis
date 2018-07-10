@@ -1,0 +1,7 @@
+####################################################################
+###				PASSET				####
+### Descripcion del proceso: Creacion de Workitems	####
+### Anlista modificador: Kevyn Estrada Castillo			####
+### Fecha de actualizacion: 23/02/2018				####
+####################################################################
+from=everis.Atencionfallas.ClaroPeru@everis.com	; export from

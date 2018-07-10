@@ -1,0 +1,25 @@
+(27/03/2018 10:35:40) ******************************************************
+(27/03/2018 10:35:40) Iniciando proceso de creacion de Workitem
+(27/03/2018 10:35:40) Fecha/Hora (Inicio)	: 27/03/2018 10:35:40
+(27/03/2018 10:35:40) Nro. Proceso		: 4733
+(27/03/2018 10:35:40) Usuario			: fallas
+(27/03/2018 10:35:40) Cliente			: 192.168.100.74
+(27/03/2018 10:35:40) Cod. Remedy		: INC000001068129
+(27/03/2018 10:35:40) Componente		: EAI
+(27/03/2018 10:35:40) Soap Tecnico		: INC000001068129
+(27/03/2018 10:35:40) ******************************************************
+(27/03/2018 10:35:40)
+(27/03/2018 10:35:40) Creando workitems . . .
+(27/03/2018 10:35:40) 
+(27/03/2018 10:36:01) Se creo con exito: 106951|INC000001068129
+(27/03/2018 10:39:33) Se creo con exito: 106957|FALLA.INC000001068129.EAI
+(27/03/2018 10:39:56) Se creo con exito: 106960|PROM.INC000001068129.EAI.DESARROLLO
+(27/03/2018 10:40:28) Se creo con exito: 106963|PROM.INC000001068129.EAI.CERTIFICACION
+(27/03/2018 10:40:52) Se creo con exito: 106964|PROM.INC000001068129.EAI.COMITE_PP
+(27/03/2018 10:41:21) Se creo con exito: 106967|PROM.INC000001068129.EAI.PRODUCCION
+(27/03/2018 10:41:46) Se creo con exito: 106969|AUT.INC000001068129.EAI.DESARROLLO
+(27/03/2018 10:42:14) Se creo con exito: 106972|AUT.INC000001068129.EAI.CERTIFICACION
+(27/03/2018 10:42:37) Se creo con exito: 106974|ACT.INC000001068129.EAI.DES_FUENTES
+(27/03/2018 10:42:44) Ocurrio un error: Exception getting attribute representation: [owner] Value: [INC000001068129]  Original exception: 
+Contributor ID not found: INC000001068129
+Failed!|ACT.INC000001068129.EAI.PRD_INSTALACION

@@ -1,0 +1,174 @@
+(14/06/2018 17:39:33) ******************************************************
+(14/06/2018 17:39:33) Iniciando proceso de creacion de Workitem
+(14/06/2018 17:39:33) Fecha/Hora (Inicio)\t: 14/06/2018 17:39:33
+(14/06/2018 17:39:33) Nro. Proceso\t\t: 4416
+(14/06/2018 17:39:33) Usuario\t\t\t: fallas
+(14/06/2018 17:39:33) Cliente\t\t\t: 192.168.100.168
+(14/06/2018 17:39:33) Cod. Remedy\t\t: INC000001119921
+(14/06/2018 17:39:33) Componente\t\t: SISCAD
+(14/06/2018 17:39:33) Soap Tecnico\t\t: E700827
+(14/06/2018 17:39:33) ******************************************************
+(14/06/2018 17:39:33)
+(14/06/2018 17:39:33) Creando workitems . . .
+(14/06/2018 17:39:33) 
+{
+   "auditoria":{
+      "repository":"https://172.19.112.112:9443/ccm/",
+      "username":"E700911",
+      "password":"Jun2018+",
+      "area":"02.GESTION.FALLAS.3"
+   },
+   "workitem":[
+      {
+         "type":"com.ibm.team.workitem.workItemType.milestone", "parametro":[
+            {"name":"Cod_Proyect_Obj", "value":"INC000001119921"},
+            {"name":"id.proyecto.solicutd", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"Proyecto.Responsable", "value":"C17096"},
+            {"name":"summary", "value":"INC000001119921"},
+            {"name":"tipo.proyecto.solicitud", "value":"Requerimientos"},
+            {"name":"tipo_gerencia_objec", "value":"SOPORTE"},
+            {"name":"tipo_proveedores_object", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"com.ibm.team.workitem.workItemType.businessneed", "parametro":[
+            {"name":"@link_parent", "value":"#1"},
+            {"name":"Aplicacion", "value":"SISCAD"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"Cod_Proyec_Sol", "value":"INC000001119921"},
+            {"name":"Coordinador_de_Desarrollo", "value":"E700136"},
+            {"name":"description", "value":"INC000001119921"},
+            {"name":"Falla.Responsable", "value":"C17096"},
+            {"name":"id_urgencias00", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"FALLA.INC000001119921.SISCAD"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/01.INC000001119921.SISCAD.DESARROLLO"},
+            {"name":"tipo.gerencia.sol", "value":"SOPORTE"},
+            {"name":"tipo.proveedores.sol", "value":"EVERIS"},
+            {"name":"type.solicitud", "value":"Requerimientos"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001119921.SISCAD.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/01.INC000001119921.SISCAD.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001119921.SISCAD.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/02.INC000001119921.SISCAD.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001119921.SISCAD.COMITE_PP"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/03.INC000001119921.SISCAD.COMITE_PP"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001119921.SISCAD.PRODUCCION"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/04.INC000001119921.SISCAD.PRODUCCION"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#3"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"cod_project_au", "value":"INC000001119921"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001119921.SISCAD.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/01.INC000001119921.SISCAD.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#4"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"cod_project_au", "value":"INC000001119921"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001119921.SISCAD.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/02.INC000001119921.SISCAD.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"Acti_Cod_Project", "value":"INC000001119921"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"Id_nombre_actividad", "value":"DES_FUENTES"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"ACT.INC000001119921.SISCAD.DES_FUENTES"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/01.INC000001119921.SISCAD.DESARROLLO"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#6"},
+            {"name":"Acti_Cod_Project", "value":"INC000001119921"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"Id_nombre_actividad", "value":"PRD_INSTALACION"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E700827"},
+            {"name":"summary", "value":"ACT.INC000001119921.SISCAD.PRD_INSTALACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/04.INC000001119921.SISCAD.PRODUCCION"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"documentacion", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"category", "value":"CEQ.INC000001119921.SISCAD"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"DOC.INC000001119921.SISCAD.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001119921.SISCAD/R.FALLA.INC000001119921.SISCAD/01.INC000001119921.SISCAD.DESARROLLO"}
+         ]
+      }
+   ]
+}
+{
+  "codigoError": "0",
+  "mensajeError": "Proceso exitoso.",
+  "listaWorkitem": [
+    "121248|INC000001119921",
+    "121249|FALLA.INC000001119921.SISCAD",
+    "121250|PRM.INC000001119921.SISCAD.DESARROLLO",
+    "121251|PRM.INC000001119921.SISCAD.CERTIFICACION",
+    "121252|PRM.INC000001119921.SISCAD.COMITE_PP",
+    "121253|PRM.INC000001119921.SISCAD.PRODUCCION",
+    "121254|AUT.INC000001119921.SISCAD.DESARROLLO",
+    "121255|AUT.INC000001119921.SISCAD.CERTIFICACION",
+    "121256|ACT.INC000001119921.SISCAD.DES_FUENTES",
+    "121257|ACT.INC000001119921.SISCAD.PRD_INSTALACION",
+    "121258|DOC.INC000001119921.SISCAD.DESARROLLO"
+  ]
+}
+(14/06/2018 17:39:50) Proceso exitoso.
+(14/06/2018 17:39:50) 
+(14/06/2018 17:39:50) Ejecucion terminada en 17 segundos

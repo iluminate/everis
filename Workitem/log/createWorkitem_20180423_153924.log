@@ -1,0 +1,17 @@
+(23/04/2018 15:39:24) ******************************************************
+(23/04/2018 15:39:24) Iniciando proceso de creacion de Workitem
+(23/04/2018 15:39:24) Fecha/Hora (Inicio)	: 23/04/2018 15:39:24
+(23/04/2018 15:39:24) Nro. Proceso		: 2313
+(23/04/2018 15:39:24) Usuario			: fallas
+(23/04/2018 15:39:24) Cliente			: 192.168.100.51
+(23/04/2018 15:39:24) Cod. Remedy		: INC000001023206
+(23/04/2018 15:39:24) Componente		: EAI
+(23/04/2018 15:39:24) Soap Tecnico		: C14571
+(23/04/2018 15:39:24) ******************************************************
+(23/04/2018 15:39:24)
+(23/04/2018 15:39:24) Creando workitems . . .
+(23/04/2018 15:39:24) 
+(23/04/2018 15:39:27) Ocurrio un error: TeamRepositoryException: Unable to log into repository!
+CRJAZ0124E The user name or password is invalid.
+
+Failed!|INC000001023206

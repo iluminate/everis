@@ -1,0 +1,17 @@
+(14/05/2018 10:55:57) ******************************************************
+(14/05/2018 10:55:57) Iniciando proceso de creacion de Workitem
+(14/05/2018 10:55:57) Fecha/Hora (Inicio)	: 14/05/2018 10:55:57
+(14/05/2018 10:55:57) Nro. Proceso		: 26053
+(14/05/2018 10:55:57) Usuario			: fallas
+(14/05/2018 10:55:57) Cliente			: 192.168.100.57
+(14/05/2018 10:55:57) Cod. Remedy		: INC000001173601
+(14/05/2018 10:55:57) Componente		: OSB
+(14/05/2018 10:55:57) Soap Tecnico		: C18749
+(14/05/2018 10:55:57) ******************************************************
+(14/05/2018 10:55:57)
+(14/05/2018 10:55:57) Creando workitems . . .
+(14/05/2018 10:55:57) 
+(14/05/2018 10:56:12) Ocurrio un error: TeamRepositoryException: Unable to log into repository!
+CRJAZ0124E The user name or password is invalid.
+
+Failed!|INC000001173601

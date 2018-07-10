@@ -1,0 +1,17 @@
+(14/05/2018 17:33:05) ******************************************************
+(14/05/2018 17:33:05) Iniciando proceso de creacion de Workitem
+(14/05/2018 17:33:05) Fecha/Hora (Inicio)	: 14/05/2018 17:33:05
+(14/05/2018 17:33:05) Nro. Proceso		: 29738
+(14/05/2018 17:33:05) Usuario			: fallas
+(14/05/2018 17:33:05) Cliente			: 192.168.100.89
+(14/05/2018 17:33:05) Cod. Remedy		: INC000001129331
+(14/05/2018 17:33:05) Componente		: PVUDB
+(14/05/2018 17:33:05) Soap Tecnico		: C12101
+(14/05/2018 17:33:05) ******************************************************
+(14/05/2018 17:33:05)
+(14/05/2018 17:33:05) Creando workitems . . .
+(14/05/2018 17:33:05) 
+(14/05/2018 17:33:11) Se creo con exito: 115911|INC000001129331
+(14/05/2018 17:33:17) Ocurrio un error: Exception getting attribute representation: [target] Value: [LT.FALLA.INC000001129331.PVUDB/R.FALLA.INC000001129331.PVUDB/01.INC000001129331.PVUDB.DESARROLLO]  Original exception: 
+Iteration not found: target Value: LT.FALLA.INC000001129331.PVUDB/R.FALLA.INC000001129331.PVUDB/01.INC000001129331.PVUDB.DESARROLLO
+Failed!|FALLA.INC000001129331.PVUDB

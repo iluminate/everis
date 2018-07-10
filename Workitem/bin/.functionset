@@ -1,0 +1,38 @@
+#! /bin/bash
+
+wcl ()
+{
+	DIR=/home/fallas/SHELLS/operacionales/Workitem
+	JAVA_HOME=/usr/java/jdk1.8.0_152/jre
+	${JAVA_HOME}/bin/java -Djava.ext.dirs=${DIR}/lib:${JAVA_HOME}/lib/ext/ -jar ${DIR}/jar/wcl.jar $@
+}
+pheader () {
+	clear
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) ******************************************************"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Iniciando proceso de creacion de Workitem"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Fecha/Hora (Inicio)"'\t'": `date +'%d/%m/%Y %H:%M:%S'`"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Nro. Proceso"'\t''\t'": $$"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Usuario"'\t''\t''\t'": `whoami`"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Cliente"'\t''\t''\t'": `echo $SSH_CONNECTION | awk '{print $1}'`"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Cod. Remedy"'\t''\t'": ${1}"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Componente"'\t''\t'": ${2}"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Soap Tecnico"'\t''\t'": ${3}"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) ******************************************************"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`)"
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) ******************************************************" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Iniciando proceso de creacion de Workitem" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Fecha/Hora (Inicio)"'\t'": `date +%d/%m/%Y' '%H:%M:%S`" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Nro. Proceso"'\t''\t'": $$" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Usuario"'\t''\t''\t'": `whoami`" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Cliente"'\t''\t''\t'": `echo $SSH_CONNECTION | awk '{print $1}'`" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Cod. Remedy"'\t''\t'": ${1}"  >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Componente"'\t''\t'": ${2}"  >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) Soap Tecnico"'\t''\t'": ${3}"  >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`) ******************************************************" >> ${4}
+	echo "(`date +%d/%m/%Y' '%H:%M:%S`)" >> ${4}
+}
+pmessage ()
+{
+	echo "(`date +'%d/%m/%Y %H:%M:%S'`) $1"
+	echo "(`date +'%d/%m/%Y %H:%M:%S'`) $1" >> $2
+}

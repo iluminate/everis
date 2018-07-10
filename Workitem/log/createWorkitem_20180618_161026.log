@@ -1,0 +1,174 @@
+(18/06/2018 16:10:26) ******************************************************
+(18/06/2018 16:10:26) Iniciando proceso de creacion de Workitem
+(18/06/2018 16:10:26) Fecha/Hora (Inicio)\t: 18/06/2018 16:10:26
+(18/06/2018 16:10:26) Nro. Proceso\t\t: 13438
+(18/06/2018 16:10:26) Usuario\t\t\t: fallas
+(18/06/2018 16:10:26) Cliente\t\t\t: 192.168.100.101
+(18/06/2018 16:10:26) Cod. Remedy\t\t: INC000001078627
+(18/06/2018 16:10:26) Componente\t\t: SISACT_CORPORATIVO
+(18/06/2018 16:10:26) Soap Tecnico\t\t: C12101
+(18/06/2018 16:10:26) ******************************************************
+(18/06/2018 16:10:26)
+(18/06/2018 16:10:26) Creando workitems . . .
+(18/06/2018 16:10:26) 
+{
+   "auditoria":{
+      "repository":"https://172.19.112.112:9443/ccm/",
+      "username":"E700911",
+      "password":"Jun2018+",
+      "area":"02.GESTION.FALLAS.3"
+   },
+   "workitem":[
+      {
+         "type":"com.ibm.team.workitem.workItemType.milestone", "parametro":[
+            {"name":"Cod_Proyect_Obj", "value":"INC000001078627"},
+            {"name":"id.proyecto.solicutd", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"Proyecto.Responsable", "value":"C17096"},
+            {"name":"summary", "value":"INC000001078627"},
+            {"name":"tipo.proyecto.solicitud", "value":"Requerimientos"},
+            {"name":"tipo_gerencia_objec", "value":"SOPORTE"},
+            {"name":"tipo_proveedores_object", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"com.ibm.team.workitem.workItemType.businessneed", "parametro":[
+            {"name":"@link_parent", "value":"#1"},
+            {"name":"Aplicacion", "value":"SISACT_CORPORATIVO"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"Cod_Proyec_Sol", "value":"INC000001078627"},
+            {"name":"Coordinador_de_Desarrollo", "value":"E700136"},
+            {"name":"description", "value":"INC000001078627"},
+            {"name":"Falla.Responsable", "value":"C17096"},
+            {"name":"id_urgencias00", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"FALLA.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/01.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"},
+            {"name":"tipo.gerencia.sol", "value":"SOPORTE"},
+            {"name":"tipo.proveedores.sol", "value":"EVERIS"},
+            {"name":"type.solicitud", "value":"Requerimientos"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/01.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/02.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001078627.SISACT_CORPORATIVO.COMITE_PP"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/03.INC000001078627.SISACT_CORPORATIVO.COMITE_PP"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001078627.SISACT_CORPORATIVO.PRODUCCION"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/04.INC000001078627.SISACT_CORPORATIVO.PRODUCCION"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#3"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"cod_project_au", "value":"INC000001078627"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/01.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#4"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"cod_project_au", "value":"INC000001078627"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/02.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"Acti_Cod_Project", "value":"INC000001078627"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"Id_nombre_actividad", "value":"DES_FUENTES"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"ACT.INC000001078627.SISACT_CORPORATIVO.DES_FUENTES"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/01.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#6"},
+            {"name":"Acti_Cod_Project", "value":"INC000001078627"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"Id_nombre_actividad", "value":"PRD_INSTALACION"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C12101"},
+            {"name":"summary", "value":"ACT.INC000001078627.SISACT_CORPORATIVO.PRD_INSTALACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/04.INC000001078627.SISACT_CORPORATIVO.PRODUCCION"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"documentacion", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"category", "value":"CEQ.INC000001078627.SISACT_CORPORATIVO"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"DOC.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001078627.SISACT_CORPORATIVO/R.FALLA.INC000001078627.SISACT_CORPORATIVO/01.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"}
+         ]
+      }
+   ]
+}
+{
+  "codigoError": "0",
+  "mensajeError": "Proceso exitoso.",
+  "listaWorkitem": [
+    "121608|INC000001078627",
+    "121609|FALLA.INC000001078627.SISACT_CORPORATIVO",
+    "121610|PRM.INC000001078627.SISACT_CORPORATIVO.DESARROLLO",
+    "121611|PRM.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION",
+    "121612|PRM.INC000001078627.SISACT_CORPORATIVO.COMITE_PP",
+    "121613|PRM.INC000001078627.SISACT_CORPORATIVO.PRODUCCION",
+    "121614|AUT.INC000001078627.SISACT_CORPORATIVO.DESARROLLO",
+    "121615|AUT.INC000001078627.SISACT_CORPORATIVO.CERTIFICACION",
+    "121616|ACT.INC000001078627.SISACT_CORPORATIVO.DES_FUENTES",
+    "121617|ACT.INC000001078627.SISACT_CORPORATIVO.PRD_INSTALACION",
+    "121618|DOC.INC000001078627.SISACT_CORPORATIVO.DESARROLLO"
+  ]
+}
+(18/06/2018 16:10:43) Proceso exitoso.
+(18/06/2018 16:10:43) 
+(18/06/2018 16:10:43) Ejecucion terminada en 17 segundos

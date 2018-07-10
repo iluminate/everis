@@ -1,0 +1,17 @@
+(21/05/2018 14:35:52) ******************************************************
+(21/05/2018 14:35:52) Iniciando proceso de creacion de Workitem
+(21/05/2018 14:35:52) Fecha/Hora (Inicio)	: 21/05/2018 14:35:52
+(21/05/2018 14:35:52) Nro. Proceso		: 17052
+(21/05/2018 14:35:52) Usuario			: fallas
+(21/05/2018 14:35:52) Cliente			: 192.168.100.127
+(21/05/2018 14:35:52) Cod. Remedy		: INC000001166302
+(21/05/2018 14:35:52) Componente		: SHELL_VENTAS
+(21/05/2018 14:35:52) Soap Tecnico		: C12101
+(21/05/2018 14:35:52) ******************************************************
+(21/05/2018 14:35:52)
+(21/05/2018 14:35:52) Creando workitems . . .
+(21/05/2018 14:35:52) 
+(21/05/2018 14:36:07) Se creo con exito: 116808|INC000001166302
+(21/05/2018 14:36:23) Ocurrio un error: Exception getting attribute representation: [Aplicacion] Value: [SHELL_VENTAS]  Original exception: 
+Type could not be identified - Enumeration could not be resolved: Aplicacion Value: SHELL_VENTAS
+Failed!|FALLA.INC000001166302.SHELL_VENTAS

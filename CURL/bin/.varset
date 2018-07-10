@@ -1,0 +1,3 @@
+JIRA_URL="http://172.19.74.140:8080";		export JIRA_URL
+JIRA_AUTH_URI="/rest/auth/latest/session";	export JIRA_AUTH_URI
+JIRA_API_SEARCH="/rest/api/2/search";		export JIRA_API_SEARCH

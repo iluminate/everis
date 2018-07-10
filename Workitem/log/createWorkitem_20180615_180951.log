@@ -1,0 +1,154 @@
+(15/06/2018 18:09:51) ******************************************************
+(15/06/2018 18:09:51) Iniciando proceso de creacion de Workitem
+(15/06/2018 18:09:51) Fecha/Hora (Inicio)	: 15/06/2018 18:09:51
+(15/06/2018 18:09:51) Nro. Proceso		: 1923
+(15/06/2018 18:09:51) Usuario			: fallas
+(15/06/2018 18:09:51) Cliente			: 192.168.100.125
+(15/06/2018 18:09:51) Cod. Remedy		: INC000001170290
+(15/06/2018 18:09:51) Componente		: SICAR
+(15/06/2018 18:09:51) Soap Tecnico		: C12101
+(15/06/2018 18:09:51) ******************************************************
+(15/06/2018 18:09:51)
+(15/06/2018 18:09:51) Creando workitems . . .
+(15/06/2018 18:09:51) 
+{
+   "auditoria":{
+      "repository":"https://172.19.112.112:9443/ccm/",
+      "username":"E700911",
+      "password":"Jun2018+",
+      "area":"02.GESTION.FALLAS.3"
+   },
+   "workitem":[
+      {
+         "type":"com.ibm.team.workitem.workItemType.milestone", "parametro":[
+            {"name":"Cod_Proyect_Obj", "value":"INC000001170290"},
+            {"name":"id.proyecto.solicutd", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"Proyecto.Responsable", "value":"C17096"},
+            {"name":"summary", "value":"INC000001170290"},
+            {"name":"tipo.proyecto.solicitud", "value":"Requerimientos"},
+            {"name":"tipo_gerencia_objec", "value":"SOPORTE"},
+            {"name":"tipo_proveedores_object", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"com.ibm.team.workitem.workItemType.businessneed", "parametro":[
+            {"name":"@link_parent", "value":"#1"},
+            {"name":"Aplicacion", "value":"SICAR"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"Cod_Proyec_Sol", "value":"INC000001170290"},
+            {"name":"Coordinador_de_Desarrollo", "value":"E700136"},
+            {"name":"description", "value":"INC000001170290"},
+            {"name":"Falla.Responsable", "value":"C17096"},
+            {"name":"id_urgencias00", "value":"NO"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"FALLA.INC000001170290.SICAR"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/01.INC000001170290.SICAR.DESARROLLO"},
+            {"name":"tipo.gerencia.sol", "value":"SOPORTE"},
+            {"name":"tipo.proveedores.sol", "value":"EVERIS"},
+            {"name":"type.solicitud", "value":"Requerimientos"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001170290.SICAR.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/01.INC000001170290.SICAR.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001170290.SICAR.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/02.INC000001170290.SICAR.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001170290.SICAR.COMITE_PP"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/03.INC000001170290.SICAR.COMITE_PP"}
+         ]
+      },
+      {
+         "type":"promover", "parametro":[
+            {"name":"@link_parent", "value":"#2"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E751006"},
+            {"name":"summary", "value":"PRM.INC000001170290.SICAR.PRODUCCION"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/04.INC000001170290.SICAR.PRODUCCION"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#3"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"cod_project_au", "value":"INC000001170290"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001170290.SICAR.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/01.INC000001170290.SICAR.DESARROLLO"}
+         ]
+      },
+      {
+         "type":"authorization", "parametro":[
+            {"name":"@link_parent", "value":"#4"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"cod_project_au", "value":"INC000001170290"},
+            {"name":"owner", "value":"C17096"},
+            {"name":"summary", "value":"AUT.INC000001170290.SICAR.CERTIFICACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/02.INC000001170290.SICAR.CERTIFICACION"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"Acti_Cod_Project", "value":"INC000001170290"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"Id_nombre_actividad", "value":"DES_FUENTES"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"ACT.INC000001170290.SICAR.DES_FUENTES"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/01.INC000001170290.SICAR.DESARROLLO"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"task", "parametro":[
+            {"name":"@link_related", "value":"#6"},
+            {"name":"Acti_Cod_Project", "value":"INC000001170290"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"Id_nombre_actividad", "value":"PRD_INSTALACION"},
+            {"name":"id_proceso_negocio_Act", "value":"SOPORTE"},
+            {"name":"internalPriority", "value":"Alta"},
+            {"name":"owner", "value":"C12101"},
+            {"name":"summary", "value":"ACT.INC000001170290.SICAR.PRD_INSTALACION"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/04.INC000001170290.SICAR.PRODUCCION"},
+            {"name":"tipo_gerencia_act", "value":"SOPORTE"},
+            {"name":"tipo_proveedores", "value":"EVERIS"}
+         ]
+      },
+      {
+         "type":"documentacion", "parametro":[
+            {"name":"@link_related", "value":"#7"},
+            {"name":"category", "value":"CEQ.INC000001170290.SICAR"},
+            {"name":"owner", "value":"E700136"},
+            {"name":"summary", "value":"DOC.INC000001170290.SICAR.DESARROLLO"},
+            {"name":"target", "value":"LT.FALLA.INC000001170290.SICAR/R.FALLA.INC000001170290.SICAR/01.INC000001170290.SICAR.DESARROLLO"}
+         ]
+      }
+   ]
+}

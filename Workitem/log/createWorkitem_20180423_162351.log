@@ -1,0 +1,15 @@
+(23/04/2018 16:23:51) ******************************************************
+(23/04/2018 16:23:51) Iniciando proceso de creacion de Workitem
+(23/04/2018 16:23:51) Fecha/Hora (Inicio)	: 23/04/2018 16:23:51
+(23/04/2018 16:23:51) Nro. Proceso		: 3094
+(23/04/2018 16:23:51) Usuario			: fallas
+(23/04/2018 16:23:51) Cliente			: 192.168.100.51
+(23/04/2018 16:23:51) Cod. Remedy		: INC000001023206
+(23/04/2018 16:23:51) Componente		: EAI
+(23/04/2018 16:23:51) Soap Tecnico		: C14571
+(23/04/2018 16:23:51) ******************************************************
+(23/04/2018 16:23:51)
+(23/04/2018 16:23:51) Creando workitems . . .
+(23/04/2018 16:23:51) 
+(23/04/2018 16:23:57) Ocurrio un error: Work item not created. CRJAZ6053E No se puede completar la operación 'Guardar elemento de trabajo'. Se requiere permiso para completar la operación.
+Failed!|INC000001023206

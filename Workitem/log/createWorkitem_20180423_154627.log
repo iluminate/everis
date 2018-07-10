@@ -1,0 +1,17 @@
+(23/04/2018 15:46:27) ******************************************************
+(23/04/2018 15:46:27) Iniciando proceso de creacion de Workitem
+(23/04/2018 15:46:27) Fecha/Hora (Inicio)	: 23/04/2018 15:46:27
+(23/04/2018 15:46:27) Nro. Proceso		: 2525
+(23/04/2018 15:46:27) Usuario			: fallas
+(23/04/2018 15:46:27) Cliente			: 192.168.100.51
+(23/04/2018 15:46:27) Cod. Remedy		: INC000001023206
+(23/04/2018 15:46:27) Componente		: EAI
+(23/04/2018 15:46:27) Soap Tecnico		: C14571
+(23/04/2018 15:46:27) ******************************************************
+(23/04/2018 15:46:27)
+(23/04/2018 15:46:27) Creando workitems . . .
+(23/04/2018 15:46:27) 
+(23/04/2018 15:46:34) Se creo con exito: 112283|INC000001023206
+(23/04/2018 15:47:24) Ocurrio un error: Exception getting attribute representation: [target] Value: [LT.FALLA.INC000001023206.EAI/R.FALLA.INC000001023206.EAI/01.INC000001023206.EAI.DESARROLLO]  Original exception: 
+Iteration not found: target Value: LT.FALLA.INC000001023206.EAI/R.FALLA.INC000001023206.EAI/01.INC000001023206.EAI.DESARROLLO
+Failed!|FALLA.INC000001023206.EAI

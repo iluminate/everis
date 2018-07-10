@@ -1,0 +1,16 @@
+MAIL_SUBJECT="Fallas de Tarificacion en backlog y analisis";			export MAIL_SUBJECT
+MAIL_TO=kestrada@everis.com,mvegassa@everis.com,ricardo.alberto.junior.rojas.velez@everis.com;	export MAIL_TO
+MAIL_CC=hparedal@everis.com,celia.esther.pardave.huanqui@everis.com;						export MAIL_CC
+
+
+
+VENTAS_MAIL_SUBJECT="Fallas de Ventas en backlog y analisis";			export VENTAS_MAIL_SUBJECT
+VENTAS_MAIL_TO=nicolle.katherine.ferro.bernardo@everis.com,fernando.de.la.cruz.quispe@everis.com,eddy.paolo.pena.alvarez@everis.com,edwin.alexander.sanchez.sanchez@everis.com,gera,do.luis.gonzalo.aldave@everis.com,jose.alonso.massa.rolando@everis.com,bryan.luis.bustamante.huaynalaya@everis.com;	export VENTAS_MAIL_TO
+VENTAS_MAIL_CC=jeanette.elizabeth.velasquez.reyes@everis.com,celia.esther.pardave.huanqui@everis.com;						export VENTAS_MAIL_CC
+
+
+
+# MAIL_TO=kestrada@everis.com;		export MAIL_TO
+# MAIL_CC=kestrada@everis.com;		export MAIL_CC
+# VENTAS_MAIL_TO=kestrada@everis.com;	export VENTAS_MAIL_TO
+# VENTAS_MAIL_CC=kestrada@everis.com;	export VENTAS_MAIL_CC

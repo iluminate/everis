@@ -1,0 +1,21 @@
+(05/06/2018 10:12:50) ******************************************************
+(05/06/2018 10:12:50) Iniciando proceso de creacion de Workitem
+(05/06/2018 10:12:50) Fecha/Hora (Inicio)	: 05/06/2018 10:12:50
+(05/06/2018 10:12:50) Nro. Proceso		: 14600
+(05/06/2018 10:12:50) Usuario			: fallas
+(05/06/2018 10:12:50) Cliente			: 192.168.100.59
+(05/06/2018 10:12:50) Cod. Remedy		: INC000001193386
+(05/06/2018 10:12:50) Componente		: SISACT_PREPAGO
+(05/06/2018 10:12:50) Soap Tecnico		: C12101
+(05/06/2018 10:12:50) ******************************************************
+(05/06/2018 10:12:50)
+(05/06/2018 10:12:50) Creando workitems . . .
+(05/06/2018 10:12:50) 
+{
+  "mensajeError": "Ha fallado 'Guardar elemento de trabajo'. No se han cumplido las condiciones previas: Es necesario establecer el atributo 'Planificado para' (elemento de trabajo <10:12:56>).",
+  "codigoError": "1",
+  "listaWorkitem": null
+}
+(05/06/2018 10:12:59) Ha fallado 'Guardar elemento de trabajo'. No se han cumplido las condiciones previas: Es necesario establecer el atributo 'Planificado para' (elemento de trabajo <10:12:56>).
+(05/06/2018 10:12:59) 
+(05/06/2018 10:12:59) Ejecucion terminada en 10 segundos

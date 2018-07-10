@@ -1,0 +1,15 @@
+#! /bin/bash
+####################################################################
+###				VARSET				####
+### Descripcion del proceso: Liberacion de lineas TFI anuladas	####
+### Anlista modificador: Kevyn Estrada Castillo			####
+### Fecha de actualizacion: 23/02/2018				####
+####################################################################
+RTCURL=https://172.19.112.112:9443/ccm/		export RTCURL; # Url de repositorio
+RTCUSER=E700911					export RTCUSER; # Usuario de RTC
+RTCPASS=Jul2018+				export RTCPASS; # Password de RTC
+RTCAREA=02.GESTION.FALLAS.4			export RTCAREA; # Area de proyecto
+USER_GC=E751006					export USER_GC; # Gestor de la configuracion
+USER_SF=C17096					export USER_SF; # Soap fallas
+USER_AP=E700136					export USER_AP; # Analista Programador
+WS_CREATEWI=http://192.168.100.169:7012/WorkitemWS/rest/workitem/create export WS_CREATEWI; # Url del servicio
