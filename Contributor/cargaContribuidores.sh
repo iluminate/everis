@@ -3,7 +3,7 @@
 #* PROGRAMA		: cargaContribuidores.sh			*
 #* AUTOR		: KEVYN ESTRADA CASTILLO			*
 #* MODIFICADO		: -						*
-#* FECHA MODIF.		: 07/05/2018					*
+#* FECHA MODIF		: 07/05/2018					*
 #* MOTIVO CAMBIO	: Version Inicial				*
 #* VERSION		: 1.0						*
 #* PARAMETROS IN	: -						*
