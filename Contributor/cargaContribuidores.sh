@@ -1,6 +1,6 @@
 #! /bin/bash
 #************************************************************************
-#* PROGRAMA		: cargaContribuidores.sh		*
+#* PROGRAMA		: cargaContribuidores.sh			*
 #* AUTOR		: KEVYN ESTRADA CASTILLO			*
 #* MODIFICADO		: -						*
 #* FECHA MODIF.		: 07/05/2018					*
